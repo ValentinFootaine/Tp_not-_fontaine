@@ -1,0 +1,9 @@
+user_profile:
+    path: /profile
+    controller: App\Controller\UserController::profile
+    methods: GET
+
+user_reservations:
+    path: /reservations
+    controller: App\Controller\UserController::reservations
+    methods: GET

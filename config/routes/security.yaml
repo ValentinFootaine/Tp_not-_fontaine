@@ -1,0 +1,13 @@
+login:
+    path: /login
+    controller: App\Controller\LoginController::login
+
+logout:
+    path: /logout
+    controller: App\Controller\LoginController::logout
+
+
+import:
+    - { resource: 'routes/security.yaml' }
+    - { resource: 'routes/user.yaml' }
+    - { resource: 'routes/admin.yaml' }

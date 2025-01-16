@@ -1,0 +1,11 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        type: annotation
+user_routes:
+    resource: 'user.yaml'
+    type: yaml
+
+admin_routes:
+    resource: 'admin.yaml'
+    type: yaml
